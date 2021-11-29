@@ -1,0 +1,81 @@
+.container {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+
+.background {
+  height: 100vh;
+  position: relative;
+}
+.notifications {
+  max-width: 60rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: 5rem;
+  transform: translate(-50%, -50%);
+}
+
+.notifications h1 {
+  text-align: center;
+}
+
+.notifications ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.name {
+  font-weight: bold;
+  color: #3f3a8f;
+}
+
+.quantity {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  color: #363636;
+  position: absolute;
+  left: 800px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.form {
+  font: inherit;
+  cursor: pointer;
+  background-color: #3f3a8f;
+  border: 1px solid #3f3a8f;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form:hover,
+.form:active {
+  background-color: #30298d;
+  border-color: #30298d;
+}
